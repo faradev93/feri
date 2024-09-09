@@ -30,11 +30,17 @@ let yob = [1, 2, function () { }, true, "fara", [50, 60, ["khanloie"]]]
 console.log(Array.isArray(yob));
 console.log(yob.length);
 console.log(yob[5]);
-
-for (let i =0 ; i =20, i++;) {
-    console.log();
-};
-
+//LOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOP//
+for (p = 0; p <= 20; p++) {
+    console.log(p);
+}
+for(j=50;j>=0;j--){
+    console.log(j);
+}
+for(j=49;j>=0;j--){
+    console.log(j.length);
+   
+}
 
 
 
