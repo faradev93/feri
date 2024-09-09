@@ -19,7 +19,7 @@ for (oo = -4;oo<=1;oo++ )
  function pet(typer){
     
  }
- let typer=['hasan',1,2,5,true,"a",'String',function() {}];
- for(input=0, input<=typer; input++;){
-    console.log(typeof typer[input]);
- }
+//  let typer=['hasan',1,2,5,true,"a",'String',function() {}];
+//  for(input=0, input<=typer; input++;){
+//     console.log(typeof typer[input]);
+//  }
