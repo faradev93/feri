@@ -22,12 +22,22 @@ console.log(Object.entries(monpel));
 
 // javab dorost
 function typer(input) {
-    for (a = 0; a < input.length; a++) {
+    for (let a = 0; a < input.length; a++) {
         console.log(typeof input[a])
     }
 }
 
 
 typer(["hasan", 1, 2, 5, true, "a", 'String', function () { }]);
+
 console.log(Array.isArray(typer));
 // javab dorost
+typer2(["hasan", 1, 2, 5, true, "a", 'String', function () { }]);
+function typer2(input2) {
+    let str = "";
+    for (let b = 0; b < input2.length; b++) {
+        str = str + "," + typeof input2[b];
+    }
+    console.log(str);
+}
+//ta inja//
