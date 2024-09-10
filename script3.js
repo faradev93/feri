@@ -20,7 +20,7 @@ console.log(Object.entries(monpel));
 
 
 
-
+// javab dorost
 function typer(input) {
     for (a = 0; a < input.length; a++) {
         console.log(typeof input[a])
@@ -30,3 +30,4 @@ function typer(input) {
 
 typer(["hasan", 1, 2, 5, true, "a", 'String', function () { }]);
 console.log(Array.isArray(typer));
+// javab dorost
