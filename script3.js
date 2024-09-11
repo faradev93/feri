@@ -41,3 +41,22 @@ function typer2(input2) {
     console.log(str);
 }
 //ta inja//
+
+function jomanji(pitter) {
+    for (let h = 0; h < pitter.length; h++) {
+        console.log(typeof pitter[h]);
+    }
+}
+
+console.log(Array.isArray(jomanji));
+jomanji(["hasan", 1, 2, 5, true, "a", 'String', function () { }]);
+
+
+function jomanji(callof) {
+let ptr=",";
+for(let m =0; m<callof.length;m++)
+{
+   ptr=ptr+","+typeof callof[m];
+}
+console.log(ptr);
+}
